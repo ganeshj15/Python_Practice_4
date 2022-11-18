@@ -1,0 +1,10 @@
+#program to remove given key from dictionary
+
+d = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+key = input("enter the key to be removed")
+if key in d:
+    del d[key]
+else:
+    print('key not found')
+    exit()
+print('updated dictionary:', d)
