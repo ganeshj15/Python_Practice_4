@@ -1,0 +1,7 @@
+# program to check dictionary is empty or not
+
+d = {}
+if not bool(d):
+    print("Empty dictionary")
+else:
+    print("Not empty")
