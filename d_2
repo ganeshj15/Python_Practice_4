@@ -1,0 +1,10 @@
+# program to check if a given key exist in dictionary or not
+
+d = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+# uncomment the below line if you want to get the key from user.
+# key = input("enter the key to be checked")
+
+if 'f' in d.keys():    
+    print('key present')
+else:
+    print('key not present')
