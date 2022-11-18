@@ -9,10 +9,9 @@ for key, values in d.items():
         d_rev[key] = values   
 print("dictionary after removal is", d_rev)
 
-++++++   OR +++++++++
+# Following is the alternate solution
 
-d = {'gfg': 10, 'for': 10, 'geeks': 20, 'is': 15, 'best': 20}
-temp_d = {value: key for key, value in d.items()}
-d_rev ={value : key for key,value in temp_d.items()}
-print('temp dictionary', temp_d)
-print('revised dictionary', d_rev)
+# d = {'gfg': 10, 'for': 10, 'geeks': 20, 'is': 15, 'best': 20}
+# temp_d = {value: key for key, value in d.items()}
+# d_rev ={value : key for key,value in temp_d.items()}
+# print("dictionary after removal is", d_rev)
