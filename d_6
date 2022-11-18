@@ -1,0 +1,11 @@
+#program to map two lists in to a dictionary
+
+keys = ['a', 'b', 'c']
+values = [1, 2, 3]
+d = {keys[i]: values[i] for i in range(len(keys))}
+print("Dictionary after combining two lists:", d)
+
+# Following is the alternate solution with the help of a builtin zip()
+# keys = ['red','green','blue']
+# values =[1,2,3]
+# print("Dictionary after combining two lists:", dict(zip(keys,values)))
