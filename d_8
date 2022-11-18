@@ -1,0 +1,18 @@
+#program to remove the duplicate value from dictionary
+
+d = {1:'david', 2:'kate', 3:'maria',4:'david'}
+l = []
+d_rev = {}
+for key, values in d.items():
+    if values not in l:
+        l.append(values)
+        d_rev[key] = values   
+print("dictionary after removal is", d_rev)
+
+++++++   OR +++++++++
+
+d = {'gfg': 10, 'for': 10, 'geeks': 20, 'is': 15, 'best': 20}
+temp_d = {value: key for key, value in d.items()}
+d_rev ={value : key for key,value in temp_d.items()}
+print('temp dictionary', temp_d)
+print('revised dictionary', d_rev)
