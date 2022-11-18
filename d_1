@@ -1,0 +1,9 @@
+#program to add key-value pair in dictionary
+                                                                                                                          
+d = {}  # taken a empty dictionary, we can update any non empty dictionary also
+d.update({'name': 'ganesh', 'age': 35})
+# to get the key and values from user uncomment the below lines
+# key = input('enter the key')
+# value = int(input('enter the value'))
+# d.update({key: value}) # key value can be taken from user
+print("Dictinary:", d)
