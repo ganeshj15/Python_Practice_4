@@ -1,0 +1,7 @@
+# program to multiply all values in dictionary
+
+d = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+product = 1
+for i in d:
+    product *= d[i]
+print("Product of all values", product)
