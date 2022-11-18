@@ -1,0 +1,7 @@
+# program to sort a dictionary by key
+
+d = {'red': 1, 'green': 2, 'blue': 3}
+d_new ={}
+for key in sorted(d):
+    d_new.update({key : d[key]})
+print("sorted dictinary:", d_new)
